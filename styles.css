@@ -127,6 +127,14 @@ header img {
 #About ul li {
     margin-bottom: 20px;
 }
+.hide {
+    display: none;
+  }
+      
+.hover:hover + .hide {
+    display: block;
+    color: red;
+}
 
 #Projects {
     padding: 20px;
